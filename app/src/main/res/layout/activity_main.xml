@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/image"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="171dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="Hello"
+        android:textColor="@color/d"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:text="I`m Android"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+</RelativeLayout>
